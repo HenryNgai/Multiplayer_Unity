@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "open_world.sln"
+    "dotnet.defaultSolution": "Open_World.sln"
 }
