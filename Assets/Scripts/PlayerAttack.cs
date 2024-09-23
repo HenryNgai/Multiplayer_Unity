@@ -38,7 +38,7 @@ public class PlayerAttack : MonoBehaviour
     void Attack(GameObject enemy)
     {
         // Apply damage to the enemy
-        enemy.GetComponent<EnemyHealth>().TakeDamage(attackDamage);
+        enemy.GetComponent<Health>().TakeDamage(attackDamage);
         Debug.Log("Attacked " + enemy.name + " for " + attackDamage + " damage.");
     }
 }
